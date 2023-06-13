@@ -126,7 +126,9 @@ Rectangle{
         }
         TapHandler{
             onTapped: {
-                clientSocket.on_loginButton_clicked(userName.text,userPass.text)
+                //clientSocket.on_loginButton_clicked(userName.text,userPass.text)
+                loginChange(userName.text,userPass.text)
+
             }
 
         }

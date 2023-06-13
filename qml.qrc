@@ -3,5 +3,8 @@
         <file>qml/main.qml</file>
         <file>qml/Loginqml.qml</file>
         <file>qml/RegUser.qml</file>
+        <file>qml/Home.qml</file>
+        <file>qml/Warning.qml</file>
+        <file>qml/Diagnosis.qml</file>
     </qresource>
 </RCC>
