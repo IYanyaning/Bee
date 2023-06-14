@@ -106,7 +106,8 @@ Rectangle{
         height: 30
         anchors.top: regUserInfoList.bottom
         anchors.topMargin: 50
-        color: "#8B864E"
+        //color: "#8B864E"
+        color: "#3366ff"
         Label{
             text: "注  册"
             anchors.fill: parent

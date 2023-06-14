@@ -24,6 +24,18 @@ Item {
         anchors.top: tit.bottom
         anchors.topMargin: 10
         anchors.horizontalCenter: parent.horizontalCenter
+        Text {
+            bottomPadding: 10
+            rightPadding: 10
+            anchors.right: parent.right
+            anchors.bottom: parent.bottom
+            z:2
+            text: qsTr("点击进入购买产品")
+            font{
+                family: "Microsoft YaHei"
+                pixelSize: 18
+            }
+        }
         Image {
             id: productImage
             anchors.fill: parent
