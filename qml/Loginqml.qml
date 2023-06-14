@@ -113,7 +113,8 @@ Rectangle{
         height: 30
         anchors.top: userInfoList.bottom
         anchors.topMargin: 50
-        color: "#8B864E"
+        //color: "#8B864E"
+        color: "#3366ff"
         Label{
             text: "登  录"
             anchors.fill: parent

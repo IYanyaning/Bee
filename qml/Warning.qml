@@ -1,6 +1,7 @@
 import QtQuick
 import QtQuick.Controls
-
+import QtQml
+import QtSpeechRecognition 1.0
 Item {
     Rectangle{
         id:tit
@@ -21,7 +22,7 @@ Item {
         width: parent.width-30
         height: 300
         anchors.top: tit.bottom
-        anchors.topMargin: 25
+        anchors.topMargin: 10
         anchors.horizontalCenter: parent.horizontalCenter
         Image {
             id: mapImg
