@@ -8,7 +8,7 @@ class AudioRecorder : public QObject
 public:
     AudioRecorder(){
 
-        tt.t
+        //tt.t
     }
 private:
     QTextToSpeech tt;

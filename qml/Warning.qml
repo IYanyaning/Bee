@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtQml
-import QtSpeechRecognition 1.0
+
 Item {
     Rectangle{
         id:tit
